@@ -39,11 +39,10 @@ public class TwoFragment extends Fragment {
 
     private ArrayList<Model> loadData() {
         likeList = new ArrayList<>();
-        for (int i = 0; i < 999; i++) {
-            likeList.add(new Model("Kendall liked your photo. 1h",
-                    "https://imgs.capitalfm.com/images/256964?crop=16_9&width=660&relax=1&signature=mdk73wTP9MExJloMhoYHJAt6uT0=",
-                    "https://i2-prod.mirror.co.uk/incoming/article22825655.ece/ALTERNATES/s1200b/2_Kylie-and-Kendall-Jenner.jpg"));
-        }
+            likeList.add(new Model("Adahan liked your photo. 1h",
+                    "https://stihi.ru/pics/2012/10/23/8769.jpg",
+                    "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
+
         return likeList;
     }
 }
