@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.ThridFragment">
+    tools:context=".ui.fragments.ThirdFragment">
 
     <TextView
         android:id="@+id/username_instagram"
@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linear_layout"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +34,7 @@
                 android:layout_height="86dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/ic_launcher_background"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -104,6 +106,23 @@
 
 
     </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintBottom_toTopOf="@+id/viewpager"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout" />
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

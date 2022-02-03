@@ -42,6 +42,21 @@ public class TwoFragment extends Fragment {
             likeList.add(new Model("Adahan liked your photo. 1h",
                     "https://stihi.ru/pics/2012/10/23/8769.jpg",
                     "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
+    likeList.add(new Model("Adahan liked your photo. 1h",
+                    "https://stihi.ru/pics/2012/10/23/8769.jpg",
+                    "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
+    likeList.add(new Model("Adahan liked your photo. 1h",
+                    "https://stihi.ru/pics/2012/10/23/8769.jpg",
+                    "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
+         likeList.add(new Model("Adahan liked your photo. 1h",
+                    "https://stihi.ru/pics/2012/10/23/8769.jpg",
+                    "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
+    likeList.add(new Model("Adahan liked your photo. 1h",
+                    "https://stihi.ru/pics/2012/10/23/8769.jpg",
+                    "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
+    likeList.add(new Model("Adahan liked your photo. 1h",
+                    "https://stihi.ru/pics/2012/10/23/8769.jpg",
+                    "https://icdn.lenta.ru/images/2019/09/17/16/20190917163805368/pic_cfaef76bdd9da7859821c486ad660b77.jpg"));
 
         return likeList;
     }

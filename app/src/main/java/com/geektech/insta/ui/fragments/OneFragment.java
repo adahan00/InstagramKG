@@ -40,28 +40,33 @@ public class OneFragment extends Fragment {
 
     private ArrayList<Model> loadData() {
         homesList = new ArrayList<>();
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
-            homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://popularbio.com/wp-content/uploads/2020/05/Lana-Rhoades.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
+        homesList.add(new Model("Mercedes", "https://www.domkrat.by/img/2021/mercedes/mercedes_s-class_w223_minsk_02.jpg"));
         return homesList;
     }
 }
